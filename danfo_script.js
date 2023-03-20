@@ -54,7 +54,7 @@ function savePainel() {
 
   let data_iterate = dfd.toJSON(dataframe);
   data_iterate.forEach((item, index) => {
-    li.innerText = `Nome: ${item.nome} - Posição: C${item.canister}-C${item.caixa}-P${item.posicao}`;
+    li.innerText = `OID: ${item.nome} - OC: ${item.canister}-NID${item.caixa}-NC${item.posicao}`;
     li.id = `id-${index}`; //passando um id para a li, que sera usado pela btn-delete para remover o elemento
     li.append(span);
     li.append(btn_delete);
