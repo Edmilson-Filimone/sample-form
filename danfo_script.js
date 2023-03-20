@@ -109,7 +109,7 @@ form.addEventListener("submit", (e) => {
 });
 
 download.addEventListener("click", (e) => {
-  dfd.toCSV(dataframe, { fileName: "Planilha_criobank.csv", download: true });
+  dfd.toCSV(dataframe, { fileName: "Planilha_Sangue.csv", download: true });
 });
 
 showRecords.addEventListener("click", () => {
